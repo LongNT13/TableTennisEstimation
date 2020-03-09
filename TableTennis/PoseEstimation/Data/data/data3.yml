@@ -1,0 +1,25 @@
+%YAML:1.0
+---
+calibration_time: "Thu Feb 13 04:53:08 2020"
+nr_of_frames: 16
+board_width: 9
+board_height: 7
+square_size: 50.
+fix_aspect_ratio: 1.
+# flags: +fix_aspectRatio +fix_principal_point
+flags: 6
+useFisheye: 0
+cameraMatrix: !!opencv-matrix
+   rows: 3
+   cols: 3
+   dt: d
+   data: [ 2.0407142053356174e+03, 0., 1024., 0., 2.0407142053356174e+03,
+       544., 0., 0., 1. ]
+distCoeffs: !!opencv-matrix
+   rows: 5
+   cols: 1
+   dt: d
+   data: [ -2.9073113764010877e-01, 4.5491839170835058e-01,
+       1.6235328046560326e-03, 4.2859256378584972e-03,
+       7.4293727682298041e-02 ]
+avg_reprojection_error: 1.6504077439322287e-01
